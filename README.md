@@ -26,7 +26,7 @@ Add the dependency
 
 ```
   dependencies {
-	        compile 'com.github.hassanusman:CircularDialogs:v1.0.1'
+	        compile 'com.github.hassanusman:CircularDialogs:v1.2'
 	}
   
 ```
