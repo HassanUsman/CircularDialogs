@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="scale_from_bottom_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_bottom</item>
+    </style>
+
+
+    <style name="scale_to_bottom_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_to_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_from_bottom</item>
+    </style>
+
+
+    <style name="scale_to_top_from_top">
+        <item name="android:windowEnterAnimation">@anim/scale_to_top</item>
+        <item name="android:windowExitAnimation">@anim/scale_from_top</item>
+    </style>
+
+
+    <style name="scale_from_top_to_top">
+        <item name="android:windowEnterAnimation">@anim/scale_from_top</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_top</item>
+    </style>
+
+
+    <style name="scale_from_top_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_from_top</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_bottom</item>
+    </style>
+
+
+    <style name="scale_to_top_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/scale_to_top</item>
+        <item name="android:windowExitAnimation">@anim/scale_from_bottom</item>
+    </style>
+
+
+    <style name="scale_from_bottom_to_top">
+        <item name="android:windowEnterAnimation">@anim/scale_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_top</item>
+    </style>
+
+    <!--left-right-->
+
+    <style name="scale_from_left_to_left">
+        <item name="android:windowEnterAnimation">@anim/scale_from_left</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_left</item>
+    </style>
+
+
+    <style name="scale_to_left_from_left">
+        <item name="android:windowEnterAnimation">@anim/scale_to_left</item>
+        <item name="android:windowExitAnimation">@anim/scale_from_left</item>
+    </style>
+
+
+    <style name="scale_to_right_from_right">
+        <item name="android:windowEnterAnimation">@anim/scale_to_right</item>
+        <item name="android:windowExitAnimation">@anim/scale_from_right</item>
+    </style>
+
+
+    <style name="scale_from_right_to_right">
+        <item name="android:windowEnterAnimation">@anim/scale_from_right</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_right</item>
+    </style>
+
+
+    <style name="scale_from_right_to_left">
+        <item name="android:windowEnterAnimation">@anim/scale_from_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_left</item>
+    </style>
+
+
+    <style name="scale_to_right_from_left">
+        <item name="android:windowEnterAnimation">@anim/scale_to_right</item>
+        <item name="android:windowExitAnimation">@anim/scale_from_left</item>
+    </style>
+
+
+    <style name="scale_from_left_to_right">
+        <item name="android:windowEnterAnimation">@anim/scale_from_left</item>
+        <item name="android:windowExitAnimation">@anim/scale_to_right</item>
+    </style>
+
+    <!--slide-->
+
+
+    <style name="slide_from_left_to_left">
+        <item name="android:windowEnterAnimation">@anim/slide_from_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_left</item>
+    </style>
+
+
+    <style name="slide_to_left_from_left">
+        <item name="android:windowEnterAnimation">@anim/slide_to_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_from_left</item>
+    </style>
+
+
+    <style name="slide_to_right_from_right">
+        <item name="android:windowEnterAnimation">@anim/slide_to_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_from_right</item>
+    </style>
+
+
+    <style name="slide_from_right_to_right">
+        <item name="android:windowEnterAnimation">@anim/slide_from_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_right</item>
+    </style>
+
+
+    <style name="slide_from_right_to_left">
+        <item name="android:windowEnterAnimation">@anim/slide_from_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_left</item>
+    </style>
+
+
+    <style name="slide_to_right_from_left">
+        <item name="android:windowEnterAnimation">@anim/slide_to_right</item>
+        <item name="android:windowExitAnimation">@anim/slide_from_left</item>
+    </style>
+
+
+    <style name="slide_from_left_to_right">
+        <item name="android:windowEnterAnimation">@anim/slide_from_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_right</item>
+    </style>
+
+    <!--top-bottom-->
+
+    <style name="slide_from_bottom_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_bottom</item>
+    </style>
+
+
+    <style name="slide_to_bottom_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_to_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_from_bottom</item>
+    </style>
+
+
+    <style name="slide_to_top_from_top">
+        <item name="android:windowEnterAnimation">@anim/slide_to_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_from_top</item>
+    </style>
+
+
+    <style name="slide_from_top_to_top">
+        <item name="android:windowEnterAnimation">@anim/slide_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_top</item>
+    </style>
+
+
+    <style name="slide_from_top_to_bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_from_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_bottom</item>
+    </style>
+
+
+    <style name="slide_to_top_from_bottom">
+        <item name="android:windowEnterAnimation">@anim/slide_to_top</item>
+        <item name="android:windowExitAnimation">@anim/slide_from_bottom</item>
+    </style>
+
+
+    <style name="slide_from_bottom_to_top">
+        <item name="android:windowEnterAnimation">@anim/slide_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_to_top</item>
+    </style>
+</resources>
