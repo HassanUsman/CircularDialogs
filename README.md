@@ -1,10 +1,5 @@
 # CircularDialogs [![Build Status](https://travis-ci.org/hypeapps/MaterialTimelineView.svg?branch=master)](https://travis-ci.org/hypeapps/MaterialTimelineView) [![Download](https://api.bintray.com/packages/hypeapps/maven/MaterialTimelineView/images/download.svg)](https://bintray.com/hypeapps/maven/MaterialTimelineView/_latestVersion)  [![Platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com) 
  
-## Maintainer
-[![HassanUsman](https://avatars0.githubusercontent.com/u/10232094?v=4&s=40) HassanUsman](https://github.com/HassanUsman)  
-
-
-
 CircularDialogs is custom Android dialog library to give user feedback about the common operations like Success, Warning and Errors. You can easily use the it by adding the dependency to your gradle file. It allows you to make beautiful dialogs with just few lines of code. You can choose from the predefined entry and exit animations. You can use lot of options as discussed below:
 
 ## Screenshots
@@ -90,3 +85,7 @@ For Animations
     // Everything will be same just parameters are changed.
  ...
  
+ 
+ ## Maintainer
+[![HassanUsman](https://avatars0.githubusercontent.com/u/10232094?v=4&s=40) HassanUsman](https://github.com/HassanUsman)  
+
