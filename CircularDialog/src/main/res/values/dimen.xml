@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item type="integer" name="medium_dialog">400</item>
+    <item type="integer" name="large_dialog">500</item>
+    <item type="integer" name="normal_text">15</item>
+    <item type="integer" name="large_text">20</item>
+    <item type="integer" name="extra_large_text">23</item>
+</resources>
