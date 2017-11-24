@@ -74,7 +74,7 @@ For Animations
  Right now only three types of dialogs are supported CDConstants.SUCCES, CDConstants.WARNING and CDConstants.ERROR.
  see the top example for usage.
  
- ### Use you own icon
+ ### Use your own icon
  
  You can use your own icons if you want. Here is the way :
  
