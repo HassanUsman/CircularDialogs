@@ -30,3 +30,4 @@ dependencies {
     implementation 'com.github.barteksc:android-pdf-viewer:1.6.0'
       implementation project(':CircularDialog')
 }
+apply from: 'deploy.gradle'
