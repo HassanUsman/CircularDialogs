@@ -42,7 +42,7 @@ new CDialog(this).createAlert("You missed something",
                 .setDuration(2000)   // in milliseconds
                 .setTextSize(CDConstants.LARGE_TEXT_SIZE)  // CDConstants.LARGE_TEXT_SIZE, CDConstants.NORMAL_TEXT_SIZE
                 .show();
-```      
+```    
 
 ### Options Available
 
