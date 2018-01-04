@@ -2,7 +2,7 @@
 
 CircularDialogs is custom Android dialog library to give user feedback about the common operations like Success, Warning and Errors. You can easily use the it by adding the dependency to your gradle file. It allows you to make beautiful dialogs with just few lines of code. You can choose from the predefined entry and exit animations. You can use lot of options as discussed below:
 
-## Screenshots
+## Screenshots 
 
 ![Alt text](https://media.giphy.com/media/26FeUOgHGdlqK5b6E/giphy.gif "Succes")
 ![Alt text](https://media.giphy.com/media/d47I14DOMBgSt4tO/giphy.gif "Error")
