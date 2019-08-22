@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.barteksc:pdfium-android:1.5.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb44fa2ab429bf6b34f2319a774cd37d/jetified-pdfium-android-1.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bb44fa2ab429bf6b34f2319a774cd37d/jetified-pdfium-android-1.5.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barteksc/pdfium-android/1.5.0/db519c783ccff7f02dbe3c59bf6dc2a0a05d9ed6/pdfium-android-1.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.barteksc/pdfium-android/1.5.0/22f99bca76f2068ed4ebf0f3627f86da41e80865/pdfium-android-1.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

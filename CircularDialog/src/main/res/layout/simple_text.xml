@@ -24,8 +24,8 @@
         android:layout_width="wrap_content"
         android:layout_below="@+id/center"
         android:layout_centerHorizontal="true"
+        android:textAlignment="center"
         android:id="@+id/msg"
-
         android:layout_marginTop="8dp"
         android:textColor="#fff"
         android:textSize="15sp"
