@@ -26,7 +26,7 @@ Add the dependency
 
 ```
   dependencies {
-	        compile 'com.github.hassanusman:CircularDialogs:1.2'
+	      implementation 'com.github.hassanusman:CircularDialogs:1.2'
 	}
   
 ```
@@ -47,6 +47,22 @@ new CDialog(this).createAlert("You missed something",
 ### Options Available
 
 Here are the different customizations that you can use to make things look different.
+
+Add DismissListener
+```
+ new CDialog(this).createAlert("Created successfully",
+                CDConstants.ERROR, CDConstants.LARGE)
+                .setAnimation(CDConstants.SCALE_FROM_BOTTOM_TO_TOP)
+                .setDuration(2000)
+                .addOnDismissListener(new DismissListener() {
+                    @Override
+                    public void onDismiss() {
+                        Toast.makeText(MainActivity.this,"Circular Dialog Dismissed",Toast.LENGTH_LONG).show();
+                    }
+                })
+                .setTextSize(CDConstants.LARGE_TEXT_SIZE)
+                .show();
+```
 
 For Animations
 ```   

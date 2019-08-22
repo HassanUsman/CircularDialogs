@@ -5,6 +5,8 @@ import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
+import android.os.Build;
+import android.os.Handler;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -15,6 +17,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.circulardialog.extras.CDConstants;
+
+import java.util.Objects;
 
 import static com.example.circulardialog.extras.CDConstants.LARGE;
 import static com.example.circulardialog.extras.CDConstants.MEDIUM;
@@ -37,12 +41,20 @@ public class CDialog {
     RelativeLayout relativeLayout;
     int size=0;
     int duration=0;
+    DismissListener listener = null;
     public CDialog(Context context){
         this.context=context;
         dialog=new Dialog(context);
 
     }
+    public  CDialog addOnDismissListener(DismissListener listener){
+        this.listener = listener;
+        return this;
+    }
+    public void setDismissListener(DismissListener listener){
+        this.listener = listener;
 
+    }
 
     public CDialog createAlert(String message,int alertType,int givenSize){
         dialog.getWindow().setBackgroundDrawableResource(R.drawable.round_back);
@@ -251,7 +263,9 @@ public class CDialog {
     }
 
     public CDialog setBackDimness(float dimness){
-        dialog.getWindow().setDimAmount(dimness);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
+            Objects.requireNonNull(dialog.getWindow()).setDimAmount(dimness);
+        }
         return this;
     }
 
@@ -321,7 +335,7 @@ public class CDialog {
 
 
 
-                // Slide
+            // Slide
 
 
 
@@ -391,16 +405,14 @@ public class CDialog {
 
     public void show(){
         dialog.show();
-        new Thread(new Runnable() {
+        new Handler(context.getMainLooper()).postDelayed(new Runnable() {
             @Override
             public void run() {
-                try {
-                    Thread.sleep(duration);
-                    dialog.dismiss();
-                }catch (InterruptedException e){
-                    Log.e("show intrupt",""+e.getMessage());
+                dialog.dismiss();
+                if(listener!=null){
+                    listener.onDismiss();
                 }
             }
-        }).start();
+        }, duration);
     }
 }

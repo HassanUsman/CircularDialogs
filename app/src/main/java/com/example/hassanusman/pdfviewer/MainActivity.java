@@ -2,15 +2,16 @@ package com.example.hassanusman.pdfviewer;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.design.widget.FloatingActionButton;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.Toast;
-import android.support.v7.widget.Toolbar;
 
 import com.example.circulardialog.CDialog;
+import com.example.circulardialog.DismissListener;
 import com.example.circulardialog.extras.CDConstants;
 import com.github.barteksc.pdfviewer.PDFView;
 
@@ -48,6 +49,12 @@ public class MainActivity extends AppCompatActivity {
                 CDConstants.ERROR, CDConstants.LARGE)
                 .setAnimation(CDConstants.SCALE_FROM_BOTTOM_TO_TOP)
                 .setDuration(2000)
+                .addOnDismissListener(new DismissListener() {
+                    @Override
+                    public void onDismiss() {
+                        Toast.makeText(MainActivity.this,"Circular Dialog Dismissed",Toast.LENGTH_LONG).show();
+                    }
+                })
                 .setTextSize(CDConstants.LARGE_TEXT_SIZE)
                 .show();
         /*Dialog d=new Dialog(this);
